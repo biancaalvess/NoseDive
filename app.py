@@ -129,3 +129,6 @@ plt.tight_layout()
 
 
 # Análise 3: Padrões temporais de engajamento
+print("\n\n ANÁLISE 3: Padrões Temporais de Engajamento")
+print("=" * 70)
+print("Analisando como o horário e dia da semana afetam o engajamento social.")
