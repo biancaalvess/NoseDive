@@ -1,4 +1,4 @@
-# Projeto SocialDive Analytics
+#  SocialDive Analytics
 
 ## Análise do Impacto Social das Redes Sociais e Simulação de Cenários Futuros
 
