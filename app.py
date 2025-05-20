@@ -127,7 +127,4 @@ plt.xlabel('Sentimento', fontsize=12)
 plt.ylabel('Pontuação Social', fontsize=12)
 plt.tight_layout()
 
-# 3 - Simulação de "Pressão Social" - Inspirada em Black Mirror
-print("\n\n ANÁLISE 6: Simualação de Pressão Social")
-print("=" * 70)
-print("Simulando como a pontuação social pode influenciar comportamentos futuros")
+print("\n Análise concluída! Todos os gráficos foram gerados.")
