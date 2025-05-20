@@ -6,11 +6,8 @@
 
 ## 📋 Sobre o Projeto
 
-O **Projeto SocialDive Analytics** é uma análise aprofundada do impacto social das redes sociais na sociedade contemporânea, combinada com uma simulação de cenários futuros inspirados no episódio "SocialDive" da série Black Mirror. Este projeto integra análises qualitativas de artigos acadêmicos com simulações quantitativas para explorar como sistemas de pontuação social podem afetar a estratificação e mobilidade social.
+O **Projeto SocialDive Analytics** é uma análise aprofundada do impacto social das redes sociais na sociedade contemporânea, combinada com uma simulação de cenários futuros inspirados no episódio "NoseDive" da série Black Mirror. Este projeto integra análises qualitativas de artigos acadêmicos com simulações quantitativas para explorar como sistemas de pontuação social podem afetar a estratificação e mobilidade social.
 
-### Inspiração
-
-O projeto é inspirado no episódio "SocialDive" de Black Mirror, que retrata uma sociedade onde todas as interações sociais são avaliadas em uma escala de 1 a 5 estrelas, criando um sistema de estratificação social baseado em pontuação digital.
 
 ## 🔍 Metodologia
 
@@ -94,13 +91,5 @@ Este gráfico de barras mostra a correlação entre diferentes características 
 3. [Sociedade em rede](https://pt.wikipedia.org/wiki/Sociedade_em_rede) - Wikipedia
 4. [Da Rede para a Sociedade](https://www.eumed.net/rev/cccss/2017/01/redes.html) - Eumed
 
-## 📝 Autor
-
-Este projeto foi desenvolvido como parte de uma análise crítica sobre o impacto das redes sociais na sociedade contemporânea e possíveis cenários futuros.
-
 ---
 
-*"A tecnologia não é boa nem má, nem é neutra." - Melvin Kranzberg*
-\`\`\`
-
-# Documentação Técnica: SocialDive Digital
