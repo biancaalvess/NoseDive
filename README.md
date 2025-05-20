@@ -2,8 +2,6 @@
 
 ## Análise do Impacto Social das Redes Sociais e Simulação de Cenários Futuros
 
-![Banner](https://miro.medium.com/v2/resize:fit:1400/1*JxqyAWbrXH_KnPCiKNXytQ.jpeg)
-
 ## 📋 Sobre o Projeto
 
 O **Projeto SocialDive Analytics** é uma análise aprofundada do impacto social das redes sociais na sociedade contemporânea, combinada com uma simulação de cenários futuros inspirados no episódio "NoseDive" da série Black Mirror. Este projeto integra análises qualitativas de artigos acadêmicos com simulações quantitativas para explorar como sistemas de pontuação social podem afetar a estratificação e mobilidade social.
