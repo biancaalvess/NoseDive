@@ -111,13 +111,11 @@ The project combines two methodological approaches:
 
 ### 1. Positive vs. Negative Impacts of Social Media
 
-![Social Media Impacts](social_media_impacts.png)
 
 This graph compares the positive and negative impacts of social media identified in the academic literature. The positive impacts (in green) include democratization of information and new forms of social mobilization, while the negative impacts (in red) include polarization, digital dependence, and superficiality in relationships.
 
 ### 2. Final Social Score Distribution
 
-![Score Distribution](final_score_distribution.png)
 
 This visualization shows how the social score is distributed in the simulated population after one year of evolution. The vertical lines demarcate the different social strata:
 - **Digital Elite** (4.5+): The most privileged layer of digital society
@@ -128,25 +126,21 @@ This visualization shows how the social score is distributed in the simulated po
 
 ### 3. Digital Social Stratum by Socioeconomic Class
 
-![Class vs Stratum](class_vs_stratum.png)
 
 This stacked bar chart shows the relationship between the initial socioeconomic class and the final digital social stratum. It can be seen that people from higher socioeconomic classes are more likely to reach higher digital strata, highlighting how existing inequalities tend to reproduce themselves in the digital environment.
 
 ### 4. Evolution of Social Score by Socioeconomic Class
 
-![Evolution of Score](evolution_of_score_by_class.png)
 
 This time-lapse visualization shows how the average social score evolves over the course of a year for different socioeconomic classes. A growing divergence between classes is observed, illustrating the digital "Matthew Effect" (rich get richer, poor get poorer).
 
 ### 5. Social Mobility by Socioeconomic Class
 
-![Mobility by Class](mobility_by_class.png)
 
 This boxplot shows the variation in social score (mobility) for each socioeconomic class. Higher classes tend to experience positive mobility, while lower classes often experience negative mobility or stagnation.
 
 ### 6. Factors Influencing Social Mobility
 
-![Mobility Factors](mobility_factors.png)
 
 This bar chart shows the correlation between different individual characteristics and social mobility. Factors such as access to technology and social conformity are positively correlated with upward mobility, while a high initial score may limit the potential for further growth.
 
