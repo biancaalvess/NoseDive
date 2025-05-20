@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espelho Social | Análise de Aprovação Digital</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Barra de navegação -->
+        <nav class="navbar">
+            <div class="logo">
+                <span class="logo-icon">★</span>
+                <span class="logo-text">Espelho<span>Social</span></span>
+            </div>
+            <div class="nav-links">
+                <a href="#dashboard" class="nav-link active">Painel</a>
+                <a href="#analises" class="nav-link">Análises</a>
+                <a href="#simulacao" class="nav-link">Simulação</a>
+                <a href="#sobre" class="nav-link">Sobre</a>
+            </div>
+            <div class="user-score">
+                <div class="score-value">4.2</div>
+                <div class="score-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Seção principal -->
+        <main>
+            <!-- Seção de Dashboard -->
+            <section id="dashboard" class="section">
+                <div class="section-header">
+                    <h1>Sistema de Pontuação Social</h1>
+                    <p class="subtitle">Análise de como a aprovação digital molda comportamentos humanos</p>
+                </div>
+
+                <div class="dashboard-grid">
+                    <!-- Card de estatísticas -->
+                    <div class="stat-card">
+                        <div class="stat-header">
+                            <h3>Pontuação Média</h3>
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="stat-value">3.42</div>
+                        <div class="stat-description">Média de pontuação social na plataforma</div>
+                        <div class="stat-trend positive">
+                            <i class="fas fa-arrow-up"></i> 0.2 desde o último mês
+                        </div>
+                    </div>
+
+                    <!-- Card de estatísticas -->
+                    <div class="stat-card">
+                        <div class="stat-header">
+                            <h3>Distribuição de Classes</h3>
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-chart">
+                            <div class="chart-bar">
+                                <div class="bar-label">Elite</div>
+                                <div class="bar-container">
+                                    <div class="bar-fill" style="width: 5%;"></div>
+                                    <span class="bar-value">5%</span>
+                                </div>
+                            </div>
+                            <div class="chart-bar">
+                                <div class="bar-label">Privilegiado</div>
+                                <div class="bar-container">
+                                    <div class="bar-fill" style="width: 15%;"></div>
+                                    <span class="bar-value">15%</span>
+                                </div>
+                            </div>
+                            <div class="chart-bar">
+                                <div class="bar-label">Respeitável</div>
+                                <div class="bar-container">
+                                    <div class="bar-fill" style="width: 35%;"></div>
+                                    <span class="bar-value">35%</span>
+                                </div>
+                            </div>
+                            <div class="chart-bar">
+                                <div class="bar-label">Comum</div>
+                                <div class="bar-container">
+                                    <div class="bar-fill" style="width: 30%;"></div>
+                                    <span class="bar-value">30%</span>
+                                </div>
+                            </div>
+                            <div class="chart-bar">
+                                <div class="bar-label">Marginalizado</div>
+                                <div class="bar-container">
+                                    <div class="bar-fill" style="width: 15%;"></div>
+                                    <span class="bar-value">15%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card de estatísticas -->
+                    <div class="stat-card">
+                        <div class="stat-header">
+                            <h3>Sentimento vs. Pontuação</h3>
+                            <i class="fas fa-smile"></i>
+                        </div>
+                        <div class="sentiment-chart">
+                            <div class="sentiment-item">
+                                <div class="sentiment-label">Positivo</div>
+                                <div class="sentiment-bar">
+                                    <div class="sentiment-fill positive" style="width: 85%;"></div>
+                                </div>
+                                <div class="sentiment-value">4.2</div>
+                            </div>
+                            <div class="sentiment-item">
+                                <div class="sentiment-label">Neutro</div>
+                                <div class="sentiment-bar">
+                                    <div class="sentiment-fill neutral" style="width: 60%;"></div>
+                                </div>
+                                <div class="sentiment-value">3.0</div>
+                            </div>
+                            <div class="sentiment-item">
+                                <div class="sentiment-label">Negativo</div>
+                                <div class="sentiment-bar">
+                                    <div class="sentiment-fill negative" style="width: 40%;"></div>
+                                </div>
+                                <div class="sentiment-value">2.0</div>
+                            </div>
+                        </div>
+                        <div class="stat-insight">
+                            Conteúdo positivo recebe 2.1x mais aprovação social
+                        </div>
+                    </div>
+
+                    <!-- Card de estatísticas -->
+                    <div class="stat-card">
+                        <div class="stat-header">
+                            <h3>Melhores Horários</h3>
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="time-chart">
+                            <div class="time-bars">
+                                <div class="time-bar" style="height: 30%;" data-hour="6"></div>
+                                <div class="time-bar" style="height: 45%;" data-hour="8"></div>
+                                <div class="time-bar" style="height: 60%;" data-hour="10"></div>
+                                <div class="time-bar" style="height: 75%;" data-hour="12"></div>
+                                <div class="time-bar" style="height: 90%;" data-hour="14"></div>
+                                <div class="time-bar" style="height: 100%;" data-hour="16"></div>
+                                <div class="time-bar" style="height: 85%;" data-hour="18"></div>
+                                <div class="time-bar" style="height: 70%;" data-hour="20"></div>
+                                <div class="time-bar" style="height: 50%;" data-hour="22"></div>
+                            </div>
+                            <div class="time-labels">
+                                <span>6h</span>
+                                <span>8h</span>
+                                <span>10h</span>
+                                <span>12h</span>
+                                <span>14h</span>
+                                <span>16h</span>
+                                <span>18h</span>
+                                <span>20h</span>
+                                <span>22h</span>
+                            </div>
+                        </div>
+                        <div class="stat-insight">
+                            Pico de engajamento às 16h (média de 120 interações)
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção de Análises -->
+            <section id="analises" class="section">
+                <div class="section-header">
+                    <h2>Análises Detalhadas</h2>
+                    <p class="subtitle">Insights sobre como a aprovação social influencia comportamentos</p>
+                </div>
+
+                <div class="analysis-container">
+                    <!-- Análise 1 -->
+                    <div class="analysis-card">
+                        <div class="analysis-header">
+                            <h3>Distribuição de Pontuações Sociais</h3>
+                            <span class="analysis-number">01</span>
+                        </div>
+                        <div class="analysis-content">
+                            <div class="analysis-image" id="chart1"></div>
+                            <div class="analysis-text">
+                                <p>A distribuição de pontuações sociais revela uma clara estratificação, com apenas 5% dos usuários alcançando o status de "Elite" (4.5+), enquanto a maioria (65%) permanece nas categorias "Respeitável" e "Comum".</p>
+                                <p>Esta pirâmide social digital cria uma constante pressão por ascensão, gerando ansiedade e comportamentos calculados em busca de aprovação.</p>
+                                <div class="key-insight">
+                                    <i class="fas fa-lightbulb"></i>
+                                    <span>A pontuação média de 3.42 estabelece um limiar psicológico que incentiva a constante busca por validação social.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Análise 2 -->
+                    <div class="analysis-card">
+                        <div class="analysis-header">
+                            <h3>Relação entre Sentimento e Aprovação</h3>
+                            <span class="analysis-number">02</span>
+                        </div>
+                        <div class="analysis-content">
+                            <div class="analysis-image" id="chart2"></div>
+                            <div class="analysis-text">
+                                <p>Conteúdo positivo recebe significativamente mais aprovação social que conteúdo negativo, com uma diferença média de 2.2 pontos na escala de avaliação.</p>
+                                <p>Esta dinâmica incentiva a criação de conteúdo artificialmente positivo, onde usuários forçam sorrisos e comportamentos para aumentar sua pontuação, suprimindo expressões autênticas.</p>
+                                <div class="key-insight">
+                                    <i class="fas fa-lightbulb"></i>
+                                    <span>A "positividade tóxica" emerge como estratégia de sobrevivência social, criando uma realidade digital distorcida e inautêntica.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Análise 3 -->
+                    <div class="analysis-card">
+                        <div class="analysis-header">
+                            <h3>Padrões Temporais de Engajamento</h3>
+                            <span class="analysis-number">03</span>
+                        </div>
+                        <div class="analysis-content">
+                            <div class="analysis-image" id="chart3"></div>
+                            <div class="analysis-text">
+                                <p>Existem horários específicos que maximizam o engajamento social, com picos entre 14h e 18h nos dias úteis.</p>
+                                <p>Usuários que buscam aprovação social tendem a postar estrategicamente nestes horários de pico, sacrificando a espontaneidade em favor do cálculo social.</p>
+                                <div class="key-insight">
+                                    <i class="fas fa-lightbulb"></i>
+                                    <span>O comportamento online torna-se cada vez mais calculado e menos autêntico, com usuários tratando interações sociais como investimentos estratégicos.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção de Simulação -->
+            <section id="simulacao" class="section">
+                <div class="section-header">
+                    <h2>Simulação de Pressão Social</h2>
+                    <p class="subtitle">Como a pontuação social altera comportamentos autênticos</p>
+                </div>
+
+                <div class="simulation-container">
+                    <div class="simulation-intro">
+                        <p>Nossa simulação demonstra como pessoas com diferentes pontuações sociais adaptam seu comportamento para obter maior aprovação, revelando a influência da pressão social na autenticidade.</p>
+                    </div>
+
+                    <div class="simulation-card">
+                        <div class="simulation-header">
+                            <h3>Adaptação Comportamental por Classe Social</h3>
+                        </div>
+                        <div class="simulation-content">
+                            <div class="simulation-chart">
+                                <div class="simulation-group">
+                                    <div class="simulation-label">Marginalizado (<2.0)</div>
+                                    <div class="simulation-bar-container">
+                                        <div class="simulation-bar original" style="width: 20%;">20%</div>
+                                        <div class="simulation-bar adapted" style="width: 80%;">80%</div>
+                                    </div>
+                                    <div class="simulation-legend">
+                                        <span>Original</span>
+                                        <span>Após Pressão</span>
+                                    </div>
+                                </div>
+                                <div class="simulation-group">
+                                    <div class="simulation-label">Comum (2.0-2.9)</div>
+                                    <div class="simulation-bar-container">
+                                        <div class="simulation-bar original" style="width: 50%;">50%</div>
+                                        <div class="simulation-bar adapted" style="width: 50%;">50%</div>
+                                    </div>
+                                </div>
+                                <div class="simulation-group">
+                                    <div class="simulation-label">Respeitável (3.0-3.9)</div>
+                                    <div class="simulation-bar-container">
+                                        <div class="simulation-bar original" style="width: 70%;">70%</div>
+                                        <div class="simulation-bar adapted" style="width: 30%;">30%</div>
+                                    </div>
+                                </div>
+                                <div class="simulation-group">
+                                    <div class="simulation-label">Privilegiado (4.0-4.4)</div>
+                                    <div class="simulation-bar-container">
+                                        <div class="simulation-bar original" style="width: 90%;">90%</div>
+                                        <div class="simulation-bar adapted" style="width: 10%;">10%</div>
+                                    </div>
+                                </div>
+                                <div class="simulation-group">
+                                    <div class="simulation-label">Elite (4.5+)</div>
+                                    <div class="simulation-bar-container">
+                                        <div class="simulation-bar original" style="width: 95%;">95%</div>
+                                        <div class="simulation-bar adapted" style="width: 5%;">5%</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="simulation-insight">
+                                <p>A simulação mostra que pessoas com pontuação baixa (<2.0) têm <strong>80%</strong> de probabilidade de mudar seu comportamento para se adequar às normas sociais, enquanto aqueles com pontuação alta (4.5+) têm apenas <strong>5%</strong> de probabilidade.</p>
+                                <p>Este fenômeno revela como a busca por aprovação social pode levar à perda de autenticidade, especialmente entre aqueles com menor status social digital.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="simulation-quote">
+                        <blockquote>
+                            "Sistemas de pontuação social criam pressões que alteram comportamentos autênticos, incentivando uma 'performance social' em vez de interações genuínas."
+                        </blockquote>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção Sobre -->
+            <section id="sobre" class="section">
+                <div class="section-header">
+                    <h2>Sobre o Projeto</h2>
+                    <p class="subtitle">Uma análise da sociedade digital contemporânea</p>
+                </div>
+
+                <div class="about-container">
+                    <div class="about-image">
+                        <div class="rating-illustration">
+                            <div class="rating-person"></div>
+                            <div class="rating-stars">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star half">★</span>
+                                <span class="star">★</span>
+                            </div>
+                            <div class="rating-circles">
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-content">
+                        <h3>Espelho Social: Análise de Aprovação Digital</h3>
+                        <p>Este projeto examina como a aprovação social nas plataformas digitais influencia nossos comportamentos e sentimentos em uma sociedade cada vez mais orientada por métricas de validação social.</p>
+                        
+                        <h4>Metodologia</h4>
+                        <p>Analisamos dados de redes sociais para entender padrões de aprovação social e seus efeitos no comportamento humano. Utilizamos técnicas de análise de dados e visualização para revelar insights sobre como a busca por validação social molda nossas interações online.</p>
+                        
+                        <h4>Conclusões</h4>
+                        <p>Nossa análise revela que já vivemos em uma sociedade onde a aprovação social digital influencia profundamente nossos comportamentos, levando a:</p>
+                        <ul>
+                            <li>Positividade artificial e inautêntica</li>
+                            <li>Comportamentos estratégicos e calculados</li>
+                            <li>Ansiedade social e comparação constante</li>
+                            <li>Homogeneização de comportamentos</li>
+                            <li>Supressão da individualidade</li>
+                        </ul>
+                        
+                        <div class="about-cta">
+                            <a href="#" class="btn-primary">Ver Código no GitHub</a>
+                            <a href="#" class="btn-secondary">Baixar Relatório Completo</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Rodapé -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-icon">★</span>
+                    <span class="logo-text">Espelho<span>Social</span></span>
+                </div>
+                <div class="footer-links">
+                    <a href="#dashboard">Painel</a>
+                    <a href="#analises">Análises</a>
+                    <a href="#simulacao">Simulação</a>
+                    <a href="#sobre">Sobre</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Projeto Espelho Social | Análise de Aprovação Digital</p>
+                <p>Este projeto é apenas para fins educacionais e de pesquisa.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        // Script simples para navegação
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    navLinks.forEach(l => l.classList.remove('active'));
+                    this.classList.add('active');
+                });
+            });
+
+            // Simulação de carregamento dos gráficos
+            const charts = document.querySelectorAll('#chart1, #chart2, #chart3');
+            charts.forEach(chart => {
+                chart.classList.add('chart-loaded');
+            });
+        });
+    </script>
+</body>
+</html>
