@@ -110,7 +110,7 @@ print(f"\nDistribuição por classe social:")
 for classe, count in class_counts.items():
     print(f"- {classe}: {count} posts ({count/len(df)*100:.1f}%)")
 
-# Análise 2: Relação entre sentimento e aprovação social
+# 2 - Relação entre sentimento e aprovação social
 print("\n\nANÁLISE 2: Relação entre Sentimento e Aprovação Social")
 print("=" * 70)
 print("Analisando como o sentimento do do conteúdo se relaciona com a aprovação social.")
@@ -127,8 +127,7 @@ plt.xlabel('Sentimento', fontsize=12)
 plt.ylabel('Pontuação Social', fontsize=12)
 plt.tight_layout()
 
-
-# Análise 3: Padrões temporais de engajamento
-print("\n\n ANÁLISE 3: Padrões Temporais de Engajamento")
+# 3 - Simulação de "Pressão Social" - Inspirada em Black Mirror
+print("\n\n ANÁLISE 6: Simualação de Pressão Social")
 print("=" * 70)
-print("Analisando como o horário e dia da semana afetam o engajamento social.")
+print("Simulando como a pontuação social pode influenciar comportamentos futuros")
