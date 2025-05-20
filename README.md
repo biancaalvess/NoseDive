@@ -2,12 +2,12 @@
 
 ## Análise do Impacto Social das Redes Sociais e Simulação de Cenários Futuros
 
-## 📋 Sobre o Projeto
+##  Sobre o Projeto
 
 O **Projeto SocialDive Analytics** é uma análise aprofundada do impacto social das redes sociais na sociedade contemporânea, combinada com uma simulação de cenários futuros inspirados no episódio "NoseDive" da série Black Mirror. Este projeto integra análises qualitativas de artigos acadêmicos com simulações quantitativas para explorar como sistemas de pontuação social podem afetar a estratificação e mobilidade social.
 
 
-## 🔍 Metodologia
+##  Metodologia
 
 O projeto combina duas abordagens metodológicas:
 
@@ -15,7 +15,7 @@ O projeto combina duas abordagens metodológicas:
 
 2. **Simulação Quantitativa**: Desenvolvimento de um modelo computacional que simula uma sociedade baseada em pontuação social, considerando fatores como classe socioeconômica, nível educacional, conformidade social e acesso à tecnologia.
 
-## 📊 Visualizações e Resultados
+##  Visualizações e Resultados
 
 ### 1. Impactos Positivos vs. Negativos das Redes Sociais
 
@@ -58,7 +58,7 @@ Este gráfico de caixas (boxplot) mostra a variação na pontuação social (mob
 
 Este gráfico de barras mostra a correlação entre diferentes características individuais e a mobilidade social. Fatores como acesso à tecnologia e conformidade social apresentam correlação positiva com mobilidade ascendente, enquanto a pontuação inicial alta pode limitar o potencial de crescimento adicional.
 
-## 🧠 Principais Conclusões
+##  Principais Conclusões
 
 1. **Reprodução de Desigualdades**: A estratificação social digital tende a reproduzir e amplificar desigualdades socioeconômicas existentes.
 
@@ -72,7 +72,7 @@ Este gráfico de barras mostra a correlação entre diferentes características 
 
 6. **Barreiras à Mobilidade**: A mobilidade social ascendente é mais difícil para classes socioeconômicas mais baixas, criando um ciclo de exclusão digital.
 
-## 🚨 Implicações Éticas e Sociais
+## Implicações Éticas e Sociais
 
 - **Erosão da privacidade**: Sistemas de pontuação social requerem vigilância constante das ações individuais.
 - **Conformismo excessivo**: Pessoas podem sacrificar autenticidade e pensamento crítico para maximizar pontuação.
@@ -82,7 +82,7 @@ Este gráfico de barras mostra a correlação entre diferentes características 
 - **Manipulação comportamental**: O sistema pode ser usado como ferramenta de controle social e político.
 
 
-## 📚 Referências
+##  Referências
 
 1. [O efeito da rede social em nosso cotidiano](https://meuartigo.brasilescola.uol.com.br/sociologia/o-efeito-rede-social-nosso-cotidiano.htm) - Brasil Escola
 2. [Echo Chambers on Social Media: A comparative analysis](https://arxiv.org/abs/2004.09603) - arXiv
